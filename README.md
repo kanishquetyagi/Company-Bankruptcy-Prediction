@@ -6,3 +6,9 @@ Predicting the financial health of companies and firms has become one of the key
 The purpose of such a predictive model which tries to foreseee the bankruptcy is to combine various econometric parameters that can effectively guage the financial state of a company and enable the management to take pre-emptive measures that can potentially help to avoid any financial distress to the company.
 
 In this project we present our analysis of the data at hand as we go on selecting various subsets of the huge feature space available to us. We try to compile and compare each and every result as we step from a niave modelling to a more nuanced and standard one. We have employed some of the most widely used classification algorithms for this project namely:
+1. Logistic Regression
+2. SVM
+3. KNN
+4. XGBoost
+5. Gaussian Naive Baye's
+6. Random Forest
