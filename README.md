@@ -12,3 +12,14 @@ In this project we present our analysis of the data at hand as we go on selectin
 4. XGBoost
 5. Gaussian Naive Baye's
 6. Random Forest
+
+Conclusion
+    1. If Accuracy is critical to the use case, then the KNN model should be used along with feature selection, to obtain a 96.6% Accuracy score.
+    2. If Recall is critical to the use case, then the Gaussian Naive Bayes model should be used with feature selection and SMOTEENN, to obtain an 88.6% Recall value.
+    3. If overall performance is critical to the use case, then KNN  Model with, feature selection(RandomForest & Isolation forest) and SMOTE ENN can be used to obtain an F1 score of 33%.
+    
+Challenges-
+
+    • Exploring literature and resources to understand the problem and to find the solution was a little exhaustive.
+    • Balancing the trade-off between recall and precision was a challenge.
+    • Feature selection and choosing the right technique that fits in with the problem statement were quite challenging.
